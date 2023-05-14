@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link crossorigin="anonymous" rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Montserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;ver=5.5.1' media='all' />
+    <style>
+        @font-face {
+            font-family: "BOTW";
+            src: url('/styles/The Wild Breath of Zelda.otf');
+        }
+
+        body {
+            /*  background-image: url('/media/images/trifuerza.png');*/
+
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .titulo_principal {
+            font-size-adjust: 0.5;
+            font-size: 50px;
+            width: 100%;
+            height: 100px;
+            text-align: center;
+            padding-top: 5px;
+            font-family: "BOTW";
+            background: rgb(255,255,255);
+            background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(58,58,236,1) 56%, rgba(0,212,255,1) 99%);
+            z-index: 99;
+        }
+
+        .nav_proyect {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: white;
+            position: sticky;
+            top: 100px;
+            border-top: 1px solid grey;
+            border-bottom: 1px solid grey;
+            z-index: 99;
+        }
+
+        .opcion-menu {
+            text-decoration: none;
+            color: black;
+        }
+
+            .opcion-menu:hover {
+                text-decoration: none;
+                color: green;
+                cursor: pointer;
+            }
+
+        .Contenido_principal {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 0px 100px;
+            padding-top: 30px;
+        }
+
+        .columna_rewards {
+            position: sticky;
+            top: 136px;
+            border: 2px solid grey;
+            z-index: 98;
+        }
+
+        .scroll {
+            height: 650px;
+            width: 310px;
+            border: 1px solid #ddd;
+            background: #f1f1f1;
+            overflow-y: scroll;
+            background-color: none;
+            z-index: 98;
+        }
+
+        .contenido {
+            background-color: white;
+            padding: 5px 40px;
+            border-color: unset;
+        }
+
+        .descripcion {
+            border: 2px solid black;
+            margin-right: 30px;
+            padding: 20px;
+        }
+
+        .actual {
+            border-bottom: 2px solid black;
+            background-color: rgba(2, 2, 2, 0.137);
+        }
+
+        .pie {
+            flex: none;
+            padding: 20px;
+            margin-top: 20px;
+            border-top: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header stle="min-height: 90vh;">
+
+        <div class="rounded-bottom titulo_principal" style="position: fixed;">THE LEGEND OF ZELDA:BREATH OF THE WILD</div>
+        <div style="padding-top:100px;display: flex;">
+            <div>
+                <img class="img-fluid" src="/media/images/fondo-link.png" alt="paisaje del videojuego Zelda" stle="z-index: -99;top:100px">
+            </div>
+            <div>
+                ¡Haz el bien sin mirar a quien!
+                <br /><br />
+                The Legend of Zelda: Breath of the Wild es un juego de acción y aventura en mundo abierto, desarrollado por Multimedia Studios. El juego sigue las aventuras de Link, quien despierta después de estar dormido durante 100 años para enfrentarse al malvado Ganon y salvar el reino de Hyrule.
+                <br /><br />
+                Creado por: Multimedia Estudios
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <div class="nav_proyect">
+        <div class="contenido">Menu</div>
+        <div class="contenido actual"><a class="opcion-menu">Campaña</a></div>
+        <div class="contenido"><a class="opcion-menu" href="Preguntas_frecuentes.html" title="Ir a Preguntas frecuentes">Preguntas frecuentes</a></div>
+        <div class="contenido"><a class="opcion-menu" href="Comentarios.html" title="Ir a Comentarios">Comentarios</a></div>
+    </div>
+
+    <div class="Contenido_principal">
+        <div class="rounded descripcion">
+            <p>
+                -Historia:<br /><br />
+                Cuenta una leyenda que hace 10.000 años existió una civilización avanzada, que con ayuda de su tecnología, cuatro guerreros de diferentes tribus, una princesa y un caballero consiguieron derrotar a un ser maligno que buscaba sumir el mundo en un gran cataclismo.
+                <br /><br />
+                En The Legend of Zelda: Breath Of the Wild exploramos el vasto reino de Hyrule, que yace devastado debido al ataque de Ganon, el cual hace 100 años intentó destruir el reino, pero gracias al poder de la princesa Zelda, este fue sellado en el castillo de Hyrule. Sin embargo el poder de Zelda se debilita, y pronto Ganon conseguirá liberarse y cometer por fin su plan.
+                <br /><br />
+                Tras un siglo sumido en un largo sueño, recuperándose de su anterior batalla, nuestro protagonista, Link, tratará de impedirlo. Pero esto no resultará una misión fácil, por lo que necesitaremos la ayuda de las cuatro bestias divinas, que han sido corrompidas por Ganon, y recuperar la memoria de lo que fuimos en un pasado.
+                <br /><br />
+                -Protagonista:<br /><br />
+                Link será el personaje que nos acompañará durante nuestra aventura, este fue elegido para combatir a Ganon y nombrado como caballero de la princesa Zelda.
+                En cuanto a su físico nos encontramos con un muchacho de apariencia joven, estatura media, rubio, ojos azules, y que destaca por su valentía y su coraje.
+                <br /><br />
+                <img src="/media/images/Foto_Link.jpeg" alt="Foto Link" />
+                <br /><br />
+                -Enemigos:<br /><br />
+                En nuestro juego encontrarás una gran variedad de enemigos que no dejarán que tu aventura resulte sencilla, algunos portarán armas, escudos, dispararán flechas, otros usarán magia o incluso todo eso combinado. Los enemigos tampoco son tontos desarrollarán estrategias, como crear fortificaciones o emboscar al protagonista por sorpresa.
+                <br /><br />
+                <img src="/media/images/Jabalí_raro.jpeg" alt="Jabalí raro" />
+                <br /><br />
+                Nuestros enemigos no solo serán seres vivos, la tecnología que un día fue construida para proteger el reino ha sido poseída por Ganon, y ahora nos amenaza con disparos de energía que será mejor que esquivemos, si no queremos una muerte asegurada.
+                <br /><br />
+                <img src="/media/images/Bicho_raro_con_tentáculos.jpeg" alt="Bicho raro con tentáculos" />
+                <br /><br />
+                -Gameplay:<br /><br />
+                El sistema de combate de este juego es uno de sus puntos fuertes, contaremos con un gran arsenal de armas que podemos encontrar durante nuestra aventura, unas asestarán golpes certeros pero más lentos, otras numerosas estocadas, o algunas serán más equilibradas. También dispondremos de escudos para protegernos de los ataques de los enemigos y arcos con diferentes tipos de flechas para atacar a distancia. Aunque también puedes pasar sigilosamente sin ser visto para evitar riesgos. A todo esto hay que sumar diferentes tipos de prendas que nos protegerán y que hasta podremos mejorar.
+                <br /><br />
+                <img src="/media/images/Gif.gif" alt="Gif" />
+                <br /><br />
+                Pero las armas no serán la única herramienta para combatir. También tendremos habilidades únicas que iremos desbloqueando y tecnología que nos haga la vida más fácil, paralizando a nuestros enemigos o volándolos por los aires.
+                <br /><br />
+                Otras mecánicas que forman la base del juego son: correr, nadar, corazones que indican nuestra vida, recolectar objetos, comer, utilizar elixires que aumentan nuestra resistencia o nuestra fuerza, comerciar, etc
+                <br /><br />
+                -Mapa, misiones y santuarios:<br /><br />
+                El mapa de Hyrule es gigantesco, está dividido en varias zonas con su propio clima, enemigos, poblaciones y mucho más. Este podrá ser explorado en el orden que el jugador desee, o incluso dejar zonas sin explorar, ¿pero quién sabe los misterios que te aguardan a la vuelta de la esquina?
+                <br /><br />
+                <img src="/media/images/Mapa.jpeg" alt="Mapa" />
+                <br /><br />
+                Durante nuestro recorrido se nos irán planteando diferentes misiones que normalmente nos serán recompensadas, unas veces con fortuitos hallazgos u otras con raros objetos. Estas se dividen en secundarias y principales, dependiendo de su importancia en el transcurso de la historia del juego.
+                <br /><br />
+                También tenemos que nombrar los santuarios, ubicaciones distribuidas por todo el mapa que nos presentarán diferentes desafíos que muchas veces nos harán quebrarnos la cabeza y algunas también las manos, y que también tendrán su recompensa.
+                <br /><br />
+                <img src="/media/images/Iglu_raro.jpeg" alt="Iglu raro" />
+                <br /><br />
+                -Mecánicas extra:<br /><br />
+                Una de las mecánicas más fascinantes de nuestro juego es la de montar a caballo, en nuestro juego encontraremos distintos tipos de caballo con características propias que podremos adiestrar, y que nos ayudarán a desplazarnos a lo largo y ancho del reino.
+                <br /><br />
+                <img src="/media/images/Link_Caballo.jpeg" alt="Link Caballo" />
+                <br /><br />
+                Otras de las mecánicas a destacar del juego será la de escalada y la de planear con un ala delta, estas nos permitirán alcanzar nuevas ubicaciones o escapar de nuestros enemigos. Pero cuidado, porque si te quedas sin energía… ¡Te caerás!
+                <br /><br />
+                <img src="/media/images/Link_Escalando.jpeg" alt="Link Escalando" />
+                <br /><br />
+                Breath of the Wild es un juego que pone mucha atención al detalle, y lo podemos ver en mecánicas como la temperatura, el clima, los distintos animales que podremos encontrar a lo largo del mundo, … ¡Incluso podremos cocinar!
+                <br /><br />
+                <br /><br />
+                -Objetivos:<br /><br />
+                250.000 EUR €:
+                <ul>
+                    <li>Terminar el desarrollo del juego al completo.</li>
+                </ul>
+                <br /><br />
+                300.000 EUR €:
+                <ul>
+                    <li>Venta del soundtrack en forma de vinilo disponible en todos los países.</li>
+                </ul>
+                <br /><br />
+                400.000 EUR €:
+                <ul>
+                    <li>Doblaje del juego a varios idiomas: Español Castellano, Alemán, Francés e Italiano.</li>
+                </ul>
+                <br /><br />
+                500.000 EUR €:
+                <ul>
+                    <li>DLC gratuito para los que han apoyado la campaña en forma de epílogo y añade nuevos lugares que explorar y mazmorras en las que adentrarse junto con otro contenido como objetos y equipamiento.</li>
+                </ul>
+                <br /><br />
+                1.000.000 EUR €:
+                <ul>
+                    <li>Añadido de un modo cooperativo local y online en una campaña adicional diseñada específicamente para ello.</li>
+                </ul>
+                <br /><br />
+                <br /><br />
+                -Equipo:
+                <ul>
+                    <li>Rubén Alba Jiménez: preguntas frecuentes, contribuciones, animación 3d.</li>
+                    <li>Eduard Florea: Lema de guerra, descripción corta, nombre de la compañía, descripción del juego, implementación de texto del word a la página web y director de operaciones.</li>
+                    <li>Andrés García Arquero: creación del logo de la empresa y del juego, objetivos, iluminación y modelado de entornos.</li>
+                    <li>Adrián Gómez-Lobo Núñez: Diseño página web, Jefe de Proyecto y programador.</li>
+                    <li>Víctor Manuel Moreno Gutiérrez: preguntas frecuentes, campaña, contribuciones.</li>
+                    <li>Jose Manuel Pastor Gonzalez: Canción original, Video promocional.</li>
+                </ul>
+
+
+            </p>
+        </div>
+        <div class="rounded columna_rewards">
+            <div class="scroll">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Contribuir 25 EUR€ o más</h5>
+                        <p class="card-text">
+                            Incluye:
+                        </p>
+                        <ul>
+                            <li>Copia digital del juego para la plataforma elegida.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <h5 class="card-title">Contribuir 40 EUR€ o más</h5>
+                    <p class="card-text">Incluye:</p>
+                    <ul>
+                        <li>Copia digital del juego para la plataforma elegida.</li>
+                        <li>Soundtrack en formato digital.</li>
+                        <li>Dibujos en formato digital.</li>
+                    </ul>
+                </div>
+                <div class="card" style="width: 18rem;">
+                        <h5 class="card-title">Contribuir 70 EUR€ o más</h5>
+                        <p class="card-text">Incluye:</p>
+                        <ul>
+                            <li>Copia en formato físico del juego para la plataforma elegida.</li>
+                            <li>Soundtrack en formato digital.</li>
+                            <li>Dibujos en formato digital.</li>
+                            <li>Fotografías impresas del juego.</li>
+                        </ul>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                        <h5 class="card-title">Contribuir 100 EUR€ o más</h5>
+                        <p class="card-text">Incluye:</p>
+                        <ul>
+                            <li>Copia en formato físico del juego para la plataforma elegida.</li>
+                            <li>Soundtrack en formato digital.</li>
+                            <li>Dibujos en formato digital.</li>
+                            <li>Fotografías impresas del juego.</li>
+                            <li>Poster oficial.</li>
+                            <li>Libro físico: The Legend Of Zelda Breath of the Wild Guía y Consejos.</li>
+                        </ul>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <h5 class="card-title">Contribuir 200 EUR€ o más</h5>
+                            <p class="card-text">Incluye:</p>
+                            <ul>
+                                <li>Copia digital del juego para la plataforma elegida.</li>
+                                <li>Copia en formato físico del juego para la plataforma elegida.</li>
+                                <li>Soundtrack en formato digital.</li>
+                                <li>Dibujos en formato digital.</li>
+                                <li>Fotografías impresas del juego.</li>
+                                <li>Poster oficial.</li>
+                                <li>Libro físico: The Legend Of Zelda Breath of the Wild Guía y Consejos.</li>
+                                <li>Tu nombre aparecerá en los créditos del videojuego.</li>
+                                <li>Acceso a la Beta del videojuego: ¡Podrás probar el juego antes de su lanzamiento oficial y darnos tu
+                                    opinión, así como un acceso anticipado a posibles actualizaciones!</li>
+                            </ul>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <h5 class="card-title">Contribuir 1.000 EUR€ o más</h5>
+                            <p class="card-text">Incluye:</p>
+                            <ul>
+                                <li>Copia digital del juego para la plataforma elegida.</li>
+                                <li>Copia en formato físico del juego para la plataforma elegida.</li>
+                                <li>Soundtrack en formato digital.</li>
+                                <li>Dibujos en formato digital.</li>
+                                <li>Fotografías impresas del juego.</li>
+                                <li>Poster oficial.</li>
+                                <li>Libro físico: The Legend Of Zelda Breath of the Wild Guía y Consejos.</li>
+                                <li>Tu nombre aparecerá en los créditos del videojuego</li>
+                                <li>Acceso a la Beta del videojuego: ¡Podrás probar el juego antes de su lanzamiento oficial y darnos tu
+                                    opinión, así como un acceso anticipado a posibles actualizaciones!</li>
+                                <li>Mapa del juego en formato físico.</li>
+                                <li>Ilustración a acuarela de tu personaje favorito.</li>
+                                <li>Libro de arte original del juego</li>
+                                <li>Dibujo exclusivo hecho a mano por el estudio (1 diferente para cada contribuidor).</li>
+                                <li>Llamada con el estudio para resolver cuestiones o hablar sobre el desarrollo del juego.</li>
+                                <li>Vinilo con el soundtrack del juego (en caso de alcanzar el objetivo).</li>
+                                <li>Figura del protagonista del videojuego a escala 1:5 con tu nombre grabado en la base.</li>
+                                <li>Copia digital del juego para la plataforma elegida.</li>
+                            </ul>
+                        
+                        </div>
+                        </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="pie">
+            ATENCIÓN: Esta página simula la campaña de microfinanciación de un videojuego ficticio
+            y no representa un producto real. Práctica de Multimedia, 1º GDDV - Curso 22/23
+            (Móstoles), URJC. La URJC no se hace responsable del contenido expuesto por el autor.
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+                crossorigin="anonymous"></script>
+
+        <!--  <div clss="pie">
+              ATENCIÓN: Esta página simula la campaña de microfinanciación de un videojuego ficticio
+              y no representa un producto real. Práctica de Multimedia, 1º GDDV - Curso 22/23
+              (Móstoles), URJC. La URJC no se hace responsable del contenido expuesto por el autor.
+          </div>-->
+
+    </footer>
+
+</body>
+
+</html>
