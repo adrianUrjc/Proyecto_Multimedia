@@ -10,103 +10,22 @@
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link crossorigin="anonymous" rel='stylesheet' id='google-fonts-1-css'  href='https://fonts.googleapis.com/css?family=Montserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;ver=5.5.1' media='all' />
     <link rel="icon" type="image/x-icon" href="/Proyecto_Multimedia/media/images/favicon.ico" />
-   <style>
-        @font-face {
-            font-family: "BOTW";
-            src: url('styles/The_Wild_Breath_of_Zelda.otf');
-        }
+    <link href="styles/Stilos.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <style>
+      @media(max-width:1400px){
+          #Zelda{
+              display: none;
+          }
+          .parrafoRespuesta{
+              font-size: 2rem;
 
-        body{
-        /*  background-image: url('/media/images/trifuerza.png');*/
-    
-           
-        }
-
-        .titulo_principal {
-          font-size-adjust: 0.5;
-            font-size: 50px;
-            width: 100%;
-            height: 100px;
-            text-align: center;
-            padding-top:5px;
-            font-family: "BOTW";
-            background: rgb(255,255,255);
-            background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(58,58,236,1) 56%, rgba(0,212,255,1) 99%);
-            z-index:99;
-        }
-
-        .nav_proyect{
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-           justify-content: center;
-            
-            background-color: white;
-            position: sticky;
-            top: 100px;
-            border-top:1px solid grey;
-            border-bottom:1px solid grey;
-            z-index: 99;
-        }
-        .opcion-menu{
-            text-decoration:  none;
-            color: black;
-        }
-        .opcion-menu:hover{
-            text-decoration:  none;
-            color: green;
-            cursor: pointer;
-        }
-
-        .Contenido_principal{
-            
-            align-items:center;
-            padding: 0px 100px;
-            padding-top:30px;
-        }
-        .columna_rewards{
-            position: sticky;
-            top: 136px;
-            border: 2px solid grey;
-            z-index: 98;
-        }
-        .scroll{
-            height: 700px;
-	width: 310px;
-	border: 1px solid #ddd;
-	background: #f1f1f1;
-	overflow-y: scroll;
-    background-color: none;
-    z-index: 98;
-        }
-        .contenido{
-            background-color: white;
-            padding:5px 40px;
-            border-color:unset;
-        }
-        
-        .descripcion{
-            flex: none;
-            align-content: center;
-            border: 2px solid black;
-            margin-right: 30px;
-            padding :30px;
-            
-        }
-       .PreguntaRespuesta{text-align: center;
-
-        }
-        .actual{
-            border-bottom: 2px solid black;
-            background-color:rgba(2, 2, 2, 0.137);
-        }
-        .pie{
-            flex: none;
-            padding: 20px;
-            margin-top: 20px;
-            border-top: 2px solid black;
-        }
-    </style>
+      }
+    }
+      .parrafoRespuesta{
+              font-size: 20px;
+          }
+  </style>
 </head>
 
 <body>
@@ -114,7 +33,7 @@
     <header style="min-height: 90vh;">
 
         <div class="rounded-bottom titulo_principal" style="position: fixed;">THE LEGEND OF ZELDA:BREATH OF THE WILD</div>
-        <img class="img-fluid" src="media/images/fondo-link.png" alt="paisaje del videojuego Zelda" style="z-index: -99;top:100px" >
+        <img class="img-fluid" id="Zelda" src="media/images/fondo-link.png" alt="paisaje del videojuego Zelda" style="z-index: -99;top:100px" >
     </header>
    
     <div class="nav_proyect">
@@ -122,55 +41,70 @@
         <div class="contenido" ><a class="opcion-menu" href="index.html" title="Ir a campaña">Campaña</a></div>
         <div class="contenido actual"><a class="opcion-menu" >Preguntas frecuentes</a></div> 
         <div class="contenido"><a class="opcion-menu" href="Comentarios.html"title="Ir a Comentarios">Comentarios</a></div>
+        <div><a href="https://www.instagram.com/multimediagames" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </div>
+    <div> <a href="https://www.twitter.com/multimedia_game" target="_blank">
+            <i class="fab fa-twitter"></i>
+        </a>
+    
+    </div>
+    <div>
+        <a href="https://www.youtube.com/@MultimediaStudios-cm9fg" target="_blank">
+            <i class="fab fa-youtube"></i>
+          </a>
+          
+    </div>
     </div>
     
     <div class="Contenido_principal" >
     <div class="rounded descripcion">
         <div class=PreguntaRespuesta>
             <h1>¿Es apropiado para niños?</h1>
-            <p>
+           <p class="parrafoRespuesta">
                 Nuestro juego no está recomendado para menores de 12 años, ya que puede contener contenido violento, y puede resultar complicado en cuanto a dificultad.
             </p>
             <br /><br />
 
             <h1>¿Qué idiomas están disponibles?</h1>
-            <p>
+           <p class="parrafoRespuesta">
                 A la hora de lanzamiento el juego se dispondrá en inglés, japonés, francés, francés canadiense, alemán, italiano, ruso y español de latinoamérica además del español castellano.
             </p>
             <br /><br />
 
             <h1>¿Cuándo llegan las recompensas?</h1>
-            <p>
+           <p class="parrafoRespuesta">
                 Todavía no tenemos una fecha exacta, pero estimamos que entre 1 y 2 meses después de la salida oficial del videojuego, aunque esto dependerá del país en el que se entregue.
             </p>
             <br /><br />
 
             <h1>¿Las recompensas se entregan a cualquier país?</h1>
-            <p>
+           <p class="parrafoRespuesta">
                 Sí, se envían a cualquier parte del mundo.
             </p>
             <br /><br />
 
             <h1>¿Permite el crossplay?</h1>
-            <p>
+           <p class="parrafoRespuesta">
                 El juego actualmente no tiene modo multijugador por lo que el crossplay no es posible, aunque sí es posible iniciar sesión de una cuenta ya empezada en otra plataforma.
             </p>
             <br /><br />
 
             <h1>¿El juego requiere de suscripción mensual?</h1>
-            <p>
+           <p class="parrafoRespuesta">
                 No, una vez se paga, cualquiera de las diferentes contribuciones se obtiene el juego.
             </p>
             <br /><br />
 
             <h1>¿Se va a lanzar el juego para Nintendo Switch?</h1>
-            <p>
+           <p class="parrafoRespuesta">
                 De momento no tenemos planes de traer el juego a la Nintendo Switch debido a su poca potencia en comparación a sus consolas contemporáneas.
             </p>
             <br /><br />
 
             <h1>¿Se va a poder acceder a una beta del juego?</h1>
-            <p>
+           <p class="parrafoRespuesta">
                 Solo aquellos que hayan contribuido con el plan de 200 euros y 1000 euros podrán acceder a la beta del juego cuando se encuentre disponible.
             </p>
             <br /><br />
